@@ -240,8 +240,8 @@
     content: "";
     position: absolute;
     top: 0;
-    left: 15px;
-    width: 90%;
+    left: 6%;
+    width: 85%;
     height: 100%;
     background: url(https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e.jpg);
     background-repeat: no-repeat;
@@ -250,17 +250,18 @@
     filter: brightness(100%);
   }
   .hero-content {
+    font-size: 1rem;
     position: relative;
     float: left;
     font-family: "Monserrat", sans-serif;
     color: white;
     text-align: left;
-    margin: 0.625rem;
+    margin: 0.623rem;
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    margin-right: 60%;
-    width: 36%;
-    height: 65%;
+    margin-right: 47%;
+    width: 37%;
+    height: 40%;
     box-shadow: 4px 4px 4px 4px rgba(177, 177, 177, 0.726);
   }
   
