@@ -284,6 +284,33 @@
 }
   
 .firstlinecourseheading{
-  margin: 2.5rem 7rem ;
+  margin: 2.5rem 7rem 1.5rem 7rem ;
   font-size: 2.4rem;
+}
+
+.secondlinecourseheading{
+  margin: 1rem 7rem ;
+  font-size: 1.3rem;
+}
+
+.courses{
+  margin: 0.5rem 6rem;
+}
+
+.course li{
+   list-style: none;
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.course li a{
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.course li a .active{
+  color: black;
 }
