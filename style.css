@@ -308,6 +308,27 @@
   color: black;
 }
 
+.container-box {
+  border: 1px solid #edf0f3;
+  margin: 1rem 7rem;
+}
+
+.container-box > h1 {
+  margin: 30px 50px 10px 50px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.container-box > p {
+  margin-left: 50px;
+  font-size: 1.2rem;
+}
+.container-box > button {
+  margin: 10px 50px;
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  font-weight: bold;
+}
+
 section {
   padding: 1%;
   padding-top: 5%;
@@ -319,6 +340,7 @@ section {
 }
 .section .topic {
   padding: 2.5rem 7rem;
+  font-size: 1.8rem; 
 }
 .bg1 {
   background-color: #f8f9fb;
